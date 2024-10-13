@@ -1,10 +1,11 @@
+// src/app/page.js
+
 import React from "react";
 import Form from "@/components/Form";
-import Header from "@/components/Headers";
+import Header from "@/components/Header";
 import TODOHero from "@/components/TODOHero";
 import TODOList from "@/components/TODOList";
-
-export default function Home() {
+function Home() {
   return (
     <div className="wrapper">
       <Header />
@@ -14,3 +15,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;
